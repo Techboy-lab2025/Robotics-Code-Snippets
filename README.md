@@ -56,3 +56,17 @@ You can publish a status update in the following format:
   "status": "operational",
   "battery_level": 95
 }
+
+## Example Output
+
+When running the script, you might see:
+
+## Customization
+
+- Update `broker_address` in the script to your own MQTT broker.
+- Add more keys to the status payload (e.g., location, error codes).
+- Implement command handling logic for things like stop/start/rotate.
+
+## License
+
+This project is licensed under the MIT License.
